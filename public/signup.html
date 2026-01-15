@@ -1,0 +1,44 @@
+<!-- public/signup.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portal — Sign Up</title>
+  <style>
+    body{
+      margin:0;height:100vh;display:flex;align-items:center;justify-content:center;
+      background:#000;color:#a259ff;font-family:system-ui,sans-serif;letter-spacing:.12em
+    }
+    .card{width:min(92vw,420px);padding:28px;border:1px solid #a259ff33;border-radius:14px}
+    h1{margin:0 0 18px;text-align:center;
+      text-shadow:0 0 10px #a259ff,0 0 20px #b280ff}
+    label{display:block;margin:14px 0 6px;font-size:.75rem;opacity:.9}
+    input{
+      width:100%;padding:12px;background:#000;border:1px solid #a259ff55;
+      color:#d0b3ff;border-radius:8px
+    }
+    button{
+      width:100%;margin-top:18px;padding:12px;border-radius:10px;
+      background:#a259ff;color:#000;border:0;font-weight:700;letter-spacing:.2em
+    }
+    .links{margin-top:14px;text-align:center;font-size:.7rem;opacity:.8}
+    a{color:#d0b3ff;text-decoration:none}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>SIGN UP</h1>
+    <label>Email</label>
+    <input type="email" />
+    <label>Password</label>
+    <input type="password" />
+    <label>Confirm Password</label>
+    <input type="password" />
+    <button>CREATE</button>
+    <div class="links">
+      <a href="login.html">Back to login</a>
+    </div>
+  </div>
+</body>
+</html>
